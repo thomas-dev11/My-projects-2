@@ -1,0 +1,30 @@
+.port-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.modif {
+    padding-bottom: 50px;
+}
+
+.col-img-1 img, .col-img-2 img , .col-img-3 img {
+    border-radius: 5px;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.col-img-1 img:hover, .col-img-2 img:hover , .col-img-3 img:hover {
+    border-radius: 5px;
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.title-portfolio {
+    color: grey;
+    margin-bottom: 50px;
+}
+

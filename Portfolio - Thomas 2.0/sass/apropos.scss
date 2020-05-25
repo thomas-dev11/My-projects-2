@@ -1,0 +1,85 @@
+.first-apropos {
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+        & hr {
+            width: 80px;
+            display: flex;
+            margin: 0 auto;
+            margin-top: -30px;
+            margin-bottom: 30px;
+        }
+            & img {
+                border-radius: 3px;
+                height: auto;
+                margin-top: 80px;
+            }
+}
+
+.second-apropos {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+        & img {
+            border-radius: 3px;
+            height: auto;
+            margin-top: 30px;
+        }
+}
+
+.title-apropos {
+    color: grey;
+}
+
+@media screen and (max-width: 1407px){
+    .first-apropos {
+        & img {
+            border-radius: 3px;
+            height: auto;
+            margin-top: 120px;
+        }
+    }
+}
+
+@media screen and (max-width: 910px) and (min-width:776px){
+    .first-apropos {
+        padding: 10px 10px;
+    }
+    .first-apropos img {
+        width: 400px;
+        height: 250px;
+        margin-top: 110px;
+    }
+
+    .second-apropos {
+        padding: 10px 10px;
+    }
+
+    .second-apropos img {
+        width: 500px;
+        height: 300px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 908px) and (min-width:776px) {
+    .--second__text{
+        margin-bottom: 50px !important ;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .first-apropos .column {
+        margin-bottom: -80px;
+    }
+}
+
+@media screen and (max-width:774px) {
+    .column p {
+        padding: 10px 10px;
+        
+    }
+}
+
+

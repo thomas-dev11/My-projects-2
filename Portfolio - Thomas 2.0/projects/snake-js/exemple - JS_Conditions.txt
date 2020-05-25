@@ -1,0 +1,14 @@
+if(condition1) /*Si ma condition est vrai execute ce code */
+{
+    console.log("Execute ce code")
+}
+
+else if(condition2) /* Si c'est faux mais que la condtion2 est vrai  alors tu fais ce code */
+{
+    console.log("La condition n'est pas vraie mais la 2 l'est")
+}
+
+else /* Si les deux du dessus sont faux alors tu executes ce code */
+{
+    console.log("Alors executes ce code la!")
+}

@@ -1,0 +1,16 @@
+.background-light-blue {
+    background-color: #F8FDFF;
+    width: 100%;
+    height: auto;
+        .my_picture {
+            display: flex;
+            justify-content: center;
+        }
+}
+
+@media screen and (max-width: 396px) {
+    .my_picture {
+        width: auto;
+        height: 180px;
+    }
+}

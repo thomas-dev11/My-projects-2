@@ -1,0 +1,10 @@
+Site réalisé grâce à Bootstrap !
+
+J'ai pioché des codes de partout, dans mes cours, sur le net (code en libre-service bien entendu).
+
+La page "contact" n'est pas encore fonctionnelle, j'y travail ;)
+
+Les images ne sont pas de moi bien entendu, elles sont présente pour illustrer le site. 
+Elles appartiennent à leurs auteurs respective !
+
+

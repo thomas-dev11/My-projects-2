@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   	    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styles.css">
+        <title>Boots Mine - V1</title>
+    </head>
+    
+    <body>
+    
+    <!- Barre de navigation, avec lien "News, Nous rejoindre etc.. ->
+        
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+           <div id="container-fluid">
+           <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img alt="cube minecraft" src="img/Minecraft_logo.png">
+                    </a>
+           </div>
+               
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Accueil <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="reglement.html">Règlement</a></li>
+                    <li><a href="FAQ.html">F.A.Q</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a style="font-weight:bold; margin-left:px">Adresse IP: <span style="color:deepskyblue">(ipduserveur)</span></a></li>
+                </ul>
+            </div>
+           </div>
+        </nav>
+        
+    <!- Message d'alerte, vous pouvez enlez la ligne ci-dessous pour masquer le message "Merci d'utilisé..". Vous pouvez également modifier la ligne ci-dessous pour y ajouter votre propre message. ->
+        
+        <div class="alert alert-success" role="alert"><strong>Merci d'utilisé BootsMine v1</strong>, le projet est développer grâce à Bootstrap !</div>
+        
+    <!- Messages automatique avec flèches pour passer de droite à gauche vos messages ->
+        
+        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                         <li data-target="#myCarousel" data-slide-to="1"></li>
+                         <li data-target="#myCarousel" data-slide-to="2"></li>  
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <h3>Bienvenue sur le site du serveur !</h3>
+                            <h4>Saga, Administrateur - Developpeur Web</h4>       
+                        </div>
+                          <div class="item">
+                            <h3>"Mise à jour bientôt disponible !"</h3>
+                            <h4>Strix, Développeur IG</h4>       
+                        </div>
+                          <div class="item">
+                            <h3>"Bon jeu à tous, n'hésitez pas à nous contacter en cas de soucis !"</h3>
+                            <h4>Skuurt, Animateur IG </h4>       
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev" role="button">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next" role="button">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                
+                </div>
+        
+        <!- Formulaire de contact ->
+        
+   <section id="contact">
+			<div class="section-content">
+				<h1 class="section-header">Un soucis ? <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Contactez-nous !</span></h1>
+				<h3>Remplissez le formulaire ci-dessous !</h3>
+			</div>
+			<div class="contact-section">
+			<div class="container">
+				<form>
+					<div class="col-md-6 form-line">
+			  			<div class="form-group">
+			  				<label for="exampleInputUsername">Pseudo</label>
+					    	<input type="text" class="form-control" id="" placeholder=" Votre speudo IG">
+				  		</div>
+				  		<div class="form-group">
+					    	<label for="exampleInputEmail">E-mail</label>
+					    	<input type="email" class="form-control" id="exampleInputEmail" placeholder=" Votre e-mail">
+					  	</div>
+                        <div class="form-group">
+					    	<label for="exampleInputEmail">Sujet</label>
+					    	<input type="email" class="form-control" id="exampleInputEmail" placeholder=" Dites nous tout..">
+					  	</div>	
+			  		</div>
+			  		<div class="col-md-6">
+			  			<div class="form-group">
+			  				<label for ="description"> Message</label>
+			  			 	<textarea  class="form-control" id="description" placeholder="Entrer votre message"></textarea>
+			  			</div>
+			  			<div>
+
+			  				<button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Envoyer</button>
+			  			</div>
+			  			
+					</div>
+				</form>
+            </div>
+			</div>
+		</section>
+        
+        <!- Bas de page ->
+        
+        <footer class="text-center">
+            <a href="index.html">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+            <p><strong>Tous droits réservés</strong>, site créé pour "mettre le nom de votre serveur" avec <strong>BOOTS MINE</strong>.<br>
+                <strong>Version de BOOTS MINE: 1.0</strong><br>
+                Une création de <strong><a href="https://tomcodeur.com/">MERCIER THOMAS</a></strong></p>
+        </footer>
+        
+    </body>
+
+</html>

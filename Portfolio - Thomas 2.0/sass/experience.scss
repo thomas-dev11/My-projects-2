@@ -1,0 +1,54 @@
+.cube-1, .cube-2, .cube-3 {
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px 20px;
+}
+
+.block-cube {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-1, .img-2, .img-3 {
+    margin-top: 22px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.title-exp {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    color: grey;
+}
+
+.p-exp {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.4;
+}
+
+
+@media screen and (max-width: 1312px) {
+    .block-cube {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 436px) and (min-width: 300px) {
+    .cube-1, .cube-2, .cube-3 {
+        width: 400px;
+        height: 250px;
+        background-color: white;
+        border-radius: 5px;
+        margin: 20px 20px;
+        margin-bottom: 90px;
+    }
+}
